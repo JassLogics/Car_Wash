@@ -1,0 +1,41 @@
+# assumes a top-level dir. structure like to:
+# /.
+# /.git/ (git is up here so all of the below are tracked)
+# /.gitignore (this file)
+# /crm/ (holds the Sugar/Suite application files)
+# /db/ (holds database backups, or at least fields_meta_data and config and similar)
+# /scripts/ (holds helper scripts for automated backups of database, quick repair, etc.)
+
+# Ignore cache, but make sure it exists
+cache/*
+!cache/index.html
+
+# Ignore derived files and junk frm the custom directory
+custom/application/Ext
+custom/backup
+custom/history
+custom/modules/*/Ext
+custom/modules/*/workflow
+custom/modulebuilder
+custom/workflow
+custom/working
+
+# Ignore logs
+sugarcrm*log
+install*log
+shadow_upgrade.log
+suitecrm.log
+
+# Ignore uploaded files, except the placeholder and modules installed from Module Loader
+upload/*
+!upload/index.html
+!upload/upgrades/
+upload/upgrades/*
+!upload/upgrades/module
+
+# avoid locally created .vagrant dir (but we will track the Vagrantfile)
+.vagrant
+
+config.php
+config_override.php
+vendor/
