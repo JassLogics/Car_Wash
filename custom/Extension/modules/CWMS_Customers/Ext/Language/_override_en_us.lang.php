@@ -1,0 +1,3 @@
+<?php
+// created: 2024-03-08 07:39:16
+$mod_strings['LBL_CWMS_BUSINESSES_CWMS_CUSTOMERS_FROM_CWMS_BUSINESSES_TITLE'] = 'Business Name';
