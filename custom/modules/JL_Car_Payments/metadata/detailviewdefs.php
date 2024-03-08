@@ -76,25 +76,17 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_BANKDETAILS',
           ),
+          1 => 
+          array (
+            'name' => 'paymentdate',
+            'label' => 'LBL_PAYMENTDATE',
+          ),
         ),
         3 => 
         array (
           0 => 
           array (
-            'name' => 'paymentdate',
-            'label' => 'LBL_PAYMENTDATE',
-          ),
-          1 => 
-          array (
-            'name' => 'invoicenumber',
-            'label' => 'LBL_INVOICENUMBER',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'jl_car_invoices_jl_car_payment_name',
+            'name' => 'jl_car_invoices_jl_car_payments_name',
           ),
           1 => 
           array (

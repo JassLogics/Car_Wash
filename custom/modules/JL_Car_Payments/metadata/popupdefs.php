@@ -10,7 +10,6 @@ $popupMeta = array (
   'amount' => 'jl_car_payments.amount',
   'bankdetails' => 'jl_car_payments.bankdetails',
   'paymentdate' => 'jl_car_payments.paymentdate',
-  'invoicenumber' => 'jl_car_payments.invoicenumber',
 ),
     'searchInputs' => array (
   1 => 'name',
@@ -19,7 +18,6 @@ $popupMeta = array (
   6 => 'amount',
   7 => 'bankdetails',
   8 => 'paymentdate',
-  9 => 'invoicenumber',
 ),
     'searchdefs' => array (
   'paymentnumber' => 
@@ -65,13 +63,6 @@ $popupMeta = array (
     'label' => 'LBL_PAYMENTDATE',
     'width' => '10%',
     'name' => 'paymentdate',
-  ),
-  'invoicenumber' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
-    'name' => 'invoicenumber',
   ),
 ),
     'listviewdefs' => array (

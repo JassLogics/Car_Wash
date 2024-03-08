@@ -56,14 +56,6 @@ array (
         'default' => true,
         'name' => 'paymentdate',
       ),
-      'invoicenumber' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_INVOICENUMBER',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'invoicenumber',
-      ),
     ),
     'advanced_search' => 
     array (
@@ -116,14 +108,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'paymentdate',
-      ),
-      'invoicenumber' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_INVOICENUMBER',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'invoicenumber',
       ),
     ),
   ),

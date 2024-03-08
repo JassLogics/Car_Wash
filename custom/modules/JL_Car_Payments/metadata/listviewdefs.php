@@ -48,13 +48,6 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'INVOICENUMBER' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
-    'default' => true,
-  ),
   'ASSIGNED_USER_NAME' => 
   array (
     'width' => '9%',
@@ -68,6 +61,13 @@ array (
     'type' => 'enum',
     'studio' => 'visible',
     'label' => 'LBL_STATUS',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'INVOICENUMBER' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_INVOICENUMBER',
     'width' => '10%',
     'default' => false,
   ),

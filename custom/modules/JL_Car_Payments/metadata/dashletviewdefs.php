@@ -24,10 +24,6 @@ $dashletData['JL_Car_PaymentsDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'invoicenumber' => 
-  array (
-    'default' => '',
-  ),
 );
 $dashletData['JL_Car_PaymentsDashlet']['columns'] = array (
   'paymentnumber' => 
@@ -99,13 +95,5 @@ $dashletData['JL_Car_PaymentsDashlet']['columns'] = array (
     'width' => '10%',
     'default' => false,
     'name' => 'status',
-  ),
-  'invoicenumber' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
-    'default' => false,
-    'name' => 'invoicenumber',
   ),
 );

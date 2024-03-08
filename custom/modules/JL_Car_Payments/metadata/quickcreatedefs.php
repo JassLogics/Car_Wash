@@ -65,18 +65,10 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_BANKDETAILS',
           ),
-        ),
-        3 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'paymentdate',
             'label' => 'LBL_PAYMENTDATE',
-          ),
-          1 => 
-          array (
-            'name' => 'invoicenumber',
-            'label' => 'LBL_INVOICENUMBER',
           ),
         ),
       ),

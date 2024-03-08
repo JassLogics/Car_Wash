@@ -58,6 +58,10 @@ array (
           array (
             'name' => 'cwms_customers_jl_subscriptions_1_name',
           ),
+          1 => 
+          array (
+            'name' => 'jl_car_packages_jl_subscriptions_1_name',
+          ),
         ),
       ),
     ),
