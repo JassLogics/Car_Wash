@@ -61,9 +61,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'CWMSubcriptions',
-  'published_date' => '2024-03-07 13:07:32',
+  'published_date' => '2024-03-08 13:18:49',
   'type' => 'module',
-  'version' => 1709816852,
+  'version' => 1709903929,
   'remove_tables' => 'prompt',
 );
 
