@@ -4,31 +4,11 @@ $dashletData['JL_Car_InvoicesDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'name' => 
-  array (
-    'default' => '',
-  ),
-  'services' => 
-  array (
-    'default' => '',
-  ),
   'paymentinformation' => 
   array (
     'default' => '',
   ),
   'invoicedate' => 
-  array (
-    'default' => '',
-  ),
-  'amount' => 
-  array (
-    'default' => '',
-  ),
-  'taxamount' => 
-  array (
-    'default' => '',
-  ),
-  'discount' => 
   array (
     'default' => '',
   ),
@@ -46,22 +26,6 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => true,
     'name' => 'invoicenumber',
   ),
-  'name' => 
-  array (
-    'width' => '40%',
-    'label' => 'LBL_LIST_NAME',
-    'link' => true,
-    'default' => true,
-    'name' => 'name',
-  ),
-  'services' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_SERVICES',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'services',
-  ),
   'paymentinformation' => 
   array (
     'type' => 'varchar',
@@ -78,14 +42,14 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => true,
     'name' => 'invoicedate',
   ),
-  'amount' => 
+  'totalamount' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_AMOUNT',
+    'label' => 'LBL_TOTALAMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => true,
-    'name' => 'amount',
+    'name' => 'totalamount',
   ),
   'taxamount' => 
   array (
@@ -96,6 +60,14 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => false,
     'name' => 'taxamount',
   ),
+  'services' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SERVICES',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'services',
+  ),
   'discount' => 
   array (
     'type' => 'currency',
@@ -105,13 +77,21 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => false,
     'name' => 'discount',
   ),
-  'totalamount' => 
+  'amount' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_TOTALAMOUNT',
+    'label' => 'LBL_AMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => false,
-    'name' => 'totalamount',
+    'name' => 'amount',
+  ),
+  'name' => 
+  array (
+    'width' => '40%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'default' => false,
+    'name' => 'name',
   ),
 );
