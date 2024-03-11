@@ -8,6 +8,10 @@ $dashletData['JL_Car_PackagesDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
+  'services' => 
+  array (
+    'default' => '',
+  ),
   'description' => 
   array (
     'default' => '',
@@ -56,6 +60,13 @@ $dashletData['JL_Car_PackagesDashlet']['columns'] = array (
     'width' => '10%',
     'default' => true,
     'name' => 'price',
+  ),
+  'services' => 
+  array (
+    'type' => 'multienum',
+    'label' => 'LBL_SERVICES',
+    'width' => '10%',
+    'default' => true,
   ),
   'discount' => 
   array (

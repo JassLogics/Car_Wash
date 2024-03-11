@@ -20,6 +20,14 @@ array (
         'default' => true,
         'name' => 'duration',
       ),
+      'services' => 
+      array (
+        'type' => 'multienum',
+        'label' => 'LBL_SERVICES',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'services',
+      ),
       'description' => 
       array (
         'type' => 'text',
@@ -63,6 +71,14 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'duration',
+      ),
+      'services' => 
+      array (
+        'type' => 'multienum',
+        'label' => 'LBL_SERVICES',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'services',
       ),
       'description' => 
       array (

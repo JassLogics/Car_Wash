@@ -23,26 +23,33 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'TOTALAMOUNT' => 
+  'AMOUNT' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_TOTALAMOUNT',
+    'label' => 'LBL_AMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => true,
   ),
-  'ASSIGNED_USER_NAME' => 
+  'NAME' => 
   array (
-    'width' => '9%',
-    'label' => 'LBL_ASSIGNED_TO_NAME',
-    'module' => 'Employees',
-    'id' => 'ASSIGNED_USER_ID',
+    'width' => '32%',
+    'label' => 'LBL_NAME',
     'default' => false,
+    'link' => true,
   ),
   'TAXAMOUNT' => 
   array (
     'type' => 'currency',
     'label' => 'LBL_TAXAMOUNT',
+    'currency_format' => true,
+    'width' => '10%',
+    'default' => false,
+  ),
+  'TOTALAMOUNT' => 
+  array (
+    'type' => 'currency',
+    'label' => 'LBL_TOTALAMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => false,
@@ -55,14 +62,6 @@ array (
     'width' => '10%',
     'default' => false,
   ),
-  'AMOUNT' => 
-  array (
-    'type' => 'currency',
-    'label' => 'LBL_AMOUNT',
-    'currency_format' => true,
-    'width' => '10%',
-    'default' => false,
-  ),
   'SERVICES' => 
   array (
     'type' => 'varchar',
@@ -70,12 +69,22 @@ array (
     'width' => '10%',
     'default' => false,
   ),
-  'NAME' => 
+  'JL_CAR_INVOICES_JL_CAR_PAYMENTS_NAME' => 
   array (
-    'width' => '32%',
-    'label' => 'LBL_NAME',
-    'default' => false,
+    'type' => 'relate',
     'link' => true,
+    'label' => 'LBL_JL_CAR_INVOICES_JL_CAR_PAYMENTS_FROM_JL_CAR_PAYMENTS_TITLE',
+    'id' => 'JL_CAR_INVOICES_JL_CAR_PAYMENTSJL_CAR_PAYMENTS_IDB',
+    'width' => '10%',
+    'default' => false,
+  ),
+  'ASSIGNED_USER_NAME' => 
+  array (
+    'width' => '9%',
+    'label' => 'LBL_ASSIGNED_TO_NAME',
+    'module' => 'Employees',
+    'id' => 'ASSIGNED_USER_ID',
+    'default' => false,
   ),
 );
 ;

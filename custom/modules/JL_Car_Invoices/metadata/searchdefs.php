@@ -30,14 +30,14 @@ array (
         'default' => true,
         'name' => 'invoicedate',
       ),
-      'totalamount' => 
+      'amount' => 
       array (
         'type' => 'currency',
-        'label' => 'LBL_TOTALAMOUNT',
+        'label' => 'LBL_AMOUNT',
         'currency_format' => true,
         'width' => '10%',
         'default' => true,
-        'name' => 'totalamount',
+        'name' => 'amount',
       ),
     ),
     'advanced_search' => 

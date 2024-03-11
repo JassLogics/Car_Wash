@@ -9,6 +9,8 @@ $popupMeta = array (
   'description' => 'jl_car_packages.description',
   'price' => 'jl_car_packages.price',
   'discount' => 'jl_car_packages.discount',
+  'subscriptionname' => 'jl_car_packages.subscriptionname',
+  'services' => 'jl_car_packages.services',
 ),
     'searchInputs' => array (
   1 => 'name',
@@ -16,6 +18,8 @@ $popupMeta = array (
   5 => 'description',
   6 => 'price',
   7 => 'discount',
+  8 => 'subscriptionname',
+  9 => 'services',
 ),
     'searchdefs' => array (
   'name' => 
@@ -29,6 +33,13 @@ $popupMeta = array (
     'label' => 'LBL_DURATION',
     'width' => '10%',
     'name' => 'duration',
+  ),
+  'services' => 
+  array (
+    'type' => 'multienum',
+    'label' => 'LBL_SERVICES',
+    'width' => '10%',
+    'name' => 'services',
   ),
   'description' => 
   array (
@@ -54,6 +65,13 @@ $popupMeta = array (
     'width' => '10%',
     'name' => 'discount',
   ),
+  'subscriptionname' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_SUBSCRIPTIONNAME',
+    'width' => '10%',
+    'name' => 'subscriptionname',
+  ),
 ),
     'listviewdefs' => array (
   'NAME' => 
@@ -71,6 +89,13 @@ $popupMeta = array (
     'width' => '10%',
     'default' => true,
     'name' => 'duration',
+  ),
+  'SERVICES' => 
+  array (
+    'type' => 'multienum',
+    'label' => 'LBL_SERVICES',
+    'width' => '10%',
+    'default' => true,
   ),
   'DESCRIPTION' => 
   array (

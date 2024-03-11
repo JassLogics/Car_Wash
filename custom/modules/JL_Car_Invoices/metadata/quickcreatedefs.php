@@ -56,8 +56,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'totalamount',
-            'label' => 'LBL_TOTALAMOUNT',
+            'name' => 'amount',
+            'label' => 'LBL_AMOUNT',
           ),
         ),
       ),
