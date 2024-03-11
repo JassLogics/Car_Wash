@@ -47,11 +47,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'invoicenumber',
-            'label' => 'LBL_INVOICENUMBER',
-          ),
+          0 => 'name',
           1 => 
           array (
             'name' => 'paymentinformation',

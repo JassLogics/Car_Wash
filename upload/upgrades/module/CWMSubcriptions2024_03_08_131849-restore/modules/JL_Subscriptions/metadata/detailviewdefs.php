@@ -1,11 +1,21 @@
 <?php
-$module_name = 'JL_Car_Invoices';
+$module_name = 'JL_Subscriptions';
 $viewdefs [$module_name] = 
 array (
-  'EditView' => 
+  'DetailView' => 
   array (
     'templateMeta' => 
     array (
+      'form' => 
+      array (
+        'buttons' => 
+        array (
+          0 => 'EDIT',
+          1 => 'DUPLICATE',
+          2 => 'DELETE',
+          3 => 'FIND_DUPLICATES',
+        ),
+      ),
       'maxColumns' => '2',
       'widths' => 
       array (
@@ -38,23 +48,18 @@ array (
         0 => 
         array (
           0 => 'name',
-          1 => 
-          array (
-            'name' => 'paymentinformation',
-            'label' => 'LBL_PAYMENTINFORMATION',
-          ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'invoicedate',
-            'label' => 'LBL_INVOICEDATE',
+            'name' => 'startdate',
+            'label' => 'LBL_STARTDATE',
           ),
           1 => 
           array (
-            'name' => 'amount',
-            'label' => 'LBL_AMOUNT',
+            'name' => 'expirydate',
+            'label' => 'LBL_EXPIRYDATE',
           ),
         ),
       ),
