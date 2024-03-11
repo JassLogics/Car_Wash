@@ -74,6 +74,10 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_JL_SUBSCRIPTIONS_SUBPANEL_TITLE' => 'Subscriptions',
   'LBL_NEW_FORM_TITLE' => 'New Subscriptions',
-  'LBL_STARTDATE' => 'Start D ate',
+  'LBL_STARTDATE' => 'Start Date',
   'LBL_EXPIRYDATE' => 'Expiry Date',
+  'LBL_PAYMENT_NO'=> 'Payment No#',
+  'LBL_CURRENCY'=> 'Currency',
+  'LBL_AMOUNT'=> 'Amount',
+  'LBL_VEHICAL_NO'=> 'Vehical No#',
 );

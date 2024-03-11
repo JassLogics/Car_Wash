@@ -115,6 +115,55 @@ $dictionary['JL_Subscriptions'] = array(
     'enable_range_search' => false,
     'display_default' => '+1 month',
   ),
+  'paymentno' => 
+  array (
+    'required' => true,
+    'name' => 'paymentno',
+    'vname' => 'LBL_PAYMENT_NO',
+    'type' => 'varchar',
+    'dbType' => 'varchar',
+    'no_default' => false,
+   
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'audited' => false,
+    'inline_edit' => true,
+    
+  ),
+  'currency' => array (
+    'name' => 'currency',
+    'vname' => 'LBL_CURRENCY',
+    'dbType' => 'varchar',
+    'type' => 'enum',
+    'len' => '3', // Assuming currency codes are typically 3 characters
+    'required' => true,
+    'inline_edit' => 1,
+    'options' => 'currency_list',
+    'isMultiSelect' => false, // Since it's unlikely for a currency field to be multi-select
+),
+
+  'amount' => 
+  array (
+    'name' => 'amount',
+    'vname' => 'LBL_AMOUNT',
+    'dbType' => 'decimal',
+    'type' => 'decimal',
+    'len' => '65',
+    'required' => true,
+    'inline_edit' => 1,
+    
+  ),
+  'vehicalno' => 
+  array (
+    'name' => 'vehicalno',
+    'vname' => 'LBL_VEHICAL_NO',
+    'dbType' => 'varchar',
+    'type' => 'varchar',
+    'len' => '255',
+    'required' => true,
+    'inline_edit' => 1,
+    
+  ),
 ),
     'relationships' => array (
 ),
