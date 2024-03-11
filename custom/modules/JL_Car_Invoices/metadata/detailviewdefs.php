@@ -67,15 +67,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'totalamount',
-            'label' => 'LBL_TOTALAMOUNT',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'jl_car_invoices_jl_car_payment_name',
+            'name' => 'amount',
+            'label' => 'LBL_AMOUNT',
           ),
         ),
       ),

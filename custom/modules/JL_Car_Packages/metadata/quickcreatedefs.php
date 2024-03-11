@@ -47,6 +47,11 @@ array (
         array (
           0 => 
           array (
+            'name' => 'services',
+            'label' => 'LBL_SERVICES',
+          ),
+          1 => 
+          array (
             'name' => 'description',
             'comment' => 'Full text of the note',
             'studio' => 'visible',
@@ -64,14 +69,6 @@ array (
           array (
             'name' => 'discount',
             'label' => 'LBL_DISCOUNT',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'subscriptionname',
-            'label' => 'LBL_SUBSCRIPTIONNAME',
           ),
         ),
       ),

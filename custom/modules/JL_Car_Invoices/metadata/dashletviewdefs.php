@@ -12,7 +12,7 @@ $dashletData['JL_Car_InvoicesDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'totalamount' => 
+  'amount' => 
   array (
     'default' => '',
   ),
@@ -42,14 +42,14 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => true,
     'name' => 'invoicedate',
   ),
-  'totalamount' => 
+  'amount' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_TOTALAMOUNT',
+    'label' => 'LBL_AMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => true,
-    'name' => 'totalamount',
+    'name' => 'amount',
   ),
   'taxamount' => 
   array (
@@ -68,6 +68,24 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => false,
     'name' => 'services',
   ),
+  'name' => 
+  array (
+    'width' => '40%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
+    'default' => false,
+    'name' => 'name',
+  ),
+  'jl_car_invoices_jl_car_payments_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_JL_CAR_INVOICES_JL_CAR_PAYMENTS_FROM_JL_CAR_PAYMENTS_TITLE',
+    'id' => 'JL_CAR_INVOICES_JL_CAR_PAYMENTSJL_CAR_PAYMENTS_IDB',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'jl_car_invoices_jl_car_payments_name',
+  ),
   'discount' => 
   array (
     'type' => 'currency',
@@ -77,21 +95,13 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => false,
     'name' => 'discount',
   ),
-  'amount' => 
+  'totalamount' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_AMOUNT',
+    'label' => 'LBL_TOTALAMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => false,
-    'name' => 'amount',
-  ),
-  'name' => 
-  array (
-    'width' => '40%',
-    'label' => 'LBL_LIST_NAME',
-    'link' => true,
-    'default' => false,
-    'name' => 'name',
+    'name' => 'totalamount',
   ),
 );

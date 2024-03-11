@@ -6,13 +6,13 @@ $popupMeta = array (
     'whereClauses' => array (
   'paymentinformation' => 'jl_car_invoices.paymentinformation',
   'invoicedate' => 'jl_car_invoices.invoicedate',
-  'totalamount' => 'jl_car_invoices.totalamount',
+  'amount' => 'jl_car_invoices.amount',
   'invoicenumber' => 'jl_car_invoices.invoicenumber',
 ),
     'searchInputs' => array (
   6 => 'paymentinformation',
   7 => 'invoicedate',
-  11 => 'totalamount',
+  8 => 'amount',
   12 => 'invoicenumber',
 ),
     'searchdefs' => array (
@@ -37,13 +37,13 @@ $popupMeta = array (
     'width' => '10%',
     'name' => 'invoicedate',
   ),
-  'totalamount' => 
+  'amount' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_TOTALAMOUNT',
+    'label' => 'LBL_AMOUNT',
     'currency_format' => true,
     'width' => '10%',
-    'name' => 'totalamount',
+    'name' => 'amount',
   ),
 ),
     'listviewdefs' => array (
@@ -71,14 +71,14 @@ $popupMeta = array (
     'default' => true,
     'name' => 'invoicedate',
   ),
-  'TOTALAMOUNT' => 
+  'AMOUNT' => 
   array (
     'type' => 'currency',
-    'label' => 'LBL_TOTALAMOUNT',
+    'label' => 'LBL_AMOUNT',
     'currency_format' => true,
     'width' => '10%',
     'default' => true,
-    'name' => 'totalamount',
+    'name' => 'amount',
   ),
 ),
 );

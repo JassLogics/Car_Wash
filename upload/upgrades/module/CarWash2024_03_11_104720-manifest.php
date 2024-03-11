@@ -61,9 +61,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'CarWash',
-  'published_date' => '2024-03-07 14:17:24',
+  'published_date' => '2024-03-11 10:47:15',
   'type' => 'module',
-  'version' => 1709821045,
+  'version' => 1710154037,
   'remove_tables' => 'prompt',
 );
 

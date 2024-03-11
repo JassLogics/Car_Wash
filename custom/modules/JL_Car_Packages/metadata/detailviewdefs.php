@@ -56,7 +56,12 @@ array (
         ),
         1 => 
         array (
-          0 => 'description',
+          0 => 
+          array (
+            'name' => 'services',
+            'label' => 'LBL_SERVICES',
+          ),
+          1 => 'description',
         ),
         2 => 
         array (
@@ -69,13 +74,6 @@ array (
           array (
             'name' => 'discount',
             'label' => 'LBL_DISCOUNT',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'jl_car_packages_jl_car_payments_name',
           ),
         ),
       ),
