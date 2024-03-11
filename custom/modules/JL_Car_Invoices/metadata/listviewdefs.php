@@ -2,12 +2,12 @@
 $module_name = 'JL_Car_Invoices';
 $listViewDefs [$module_name] = 
 array (
-  'INVOICENUMBER' => 
+  'NAME' => 
   array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
+    'width' => '32%',
+    'label' => 'LBL_NAME',
     'default' => true,
+    'link' => true,
   ),
   'PAYMENTINFORMATION' => 
   array (
@@ -31,18 +31,18 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'NAME' => 
-  array (
-    'width' => '32%',
-    'label' => 'LBL_NAME',
-    'default' => false,
-    'link' => true,
-  ),
   'TAXAMOUNT' => 
   array (
     'type' => 'currency',
     'label' => 'LBL_TAXAMOUNT',
     'currency_format' => true,
+    'width' => '10%',
+    'default' => false,
+  ),
+  'INVOICENUMBER' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_INVOICENUMBER',
     'width' => '10%',
     'default' => false,
   ),
