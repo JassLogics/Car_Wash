@@ -1,5 +1,4 @@
-<br />
-<b>Deprecated</b>:  Using php-function "strstr" as a modifier is deprecated and will be removed in a future release. Use Smarty::registerPlugin to explicitly register a custom modifier. in <b>F:\laragon\www\crm\vendor\smarty\smarty\libs\sysplugins\smarty_internal_compile_private_modifier.php</b> on line <b>114</b><br />
+
 <?php
 /**
  *
