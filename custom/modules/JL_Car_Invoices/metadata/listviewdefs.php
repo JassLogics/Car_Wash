@@ -69,15 +69,6 @@ array (
     'width' => '10%',
     'default' => false,
   ),
-  'JL_CAR_INVOICES_JL_CAR_PAYMENTS_NAME' => 
-  array (
-    'type' => 'relate',
-    'link' => true,
-    'label' => 'LBL_JL_CAR_INVOICES_JL_CAR_PAYMENTS_FROM_JL_CAR_PAYMENTS_TITLE',
-    'id' => 'JL_CAR_INVOICES_JL_CAR_PAYMENTSJL_CAR_PAYMENTS_IDB',
-    'width' => '10%',
-    'default' => false,
-  ),
   'ASSIGNED_USER_NAME' => 
   array (
     'width' => '9%',
