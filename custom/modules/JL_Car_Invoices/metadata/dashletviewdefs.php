@@ -1,6 +1,6 @@
 <?php
 $dashletData['JL_Car_InvoicesDashlet']['searchFields'] = array (
-  'invoicenumber' => 
+  'name' => 
   array (
     'default' => '',
   ),
@@ -18,13 +18,13 @@ $dashletData['JL_Car_InvoicesDashlet']['searchFields'] = array (
   ),
 );
 $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
-  'invoicenumber' => 
+  'name' => 
   array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
+    'width' => '40%',
+    'label' => 'LBL_LIST_NAME',
+    'link' => true,
     'default' => true,
-    'name' => 'invoicenumber',
+    'name' => 'name',
   ),
   'paymentinformation' => 
   array (
@@ -68,24 +68,6 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'default' => false,
     'name' => 'services',
   ),
-  'name' => 
-  array (
-    'width' => '40%',
-    'label' => 'LBL_LIST_NAME',
-    'link' => true,
-    'default' => false,
-    'name' => 'name',
-  ),
-  'jl_car_invoices_jl_car_payments_name' => 
-  array (
-    'type' => 'relate',
-    'link' => true,
-    'label' => 'LBL_JL_CAR_INVOICES_JL_CAR_PAYMENTS_FROM_JL_CAR_PAYMENTS_TITLE',
-    'id' => 'JL_CAR_INVOICES_JL_CAR_PAYMENTSJL_CAR_PAYMENTS_IDB',
-    'width' => '10%',
-    'default' => false,
-    'name' => 'jl_car_invoices_jl_car_payments_name',
-  ),
   'discount' => 
   array (
     'type' => 'currency',
@@ -103,5 +85,13 @@ $dashletData['JL_Car_InvoicesDashlet']['columns'] = array (
     'width' => '10%',
     'default' => false,
     'name' => 'totalamount',
+  ),
+  'invoicenumber' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_INVOICENUMBER',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'invoicenumber',
   ),
 );

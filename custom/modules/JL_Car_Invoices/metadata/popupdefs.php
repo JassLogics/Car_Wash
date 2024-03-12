@@ -7,21 +7,19 @@ $popupMeta = array (
   'paymentinformation' => 'jl_car_invoices.paymentinformation',
   'invoicedate' => 'jl_car_invoices.invoicedate',
   'amount' => 'jl_car_invoices.amount',
-  'invoicenumber' => 'jl_car_invoices.invoicenumber',
+  'name' => 'jl_car_invoices.name',
 ),
     'searchInputs' => array (
   6 => 'paymentinformation',
   7 => 'invoicedate',
   8 => 'amount',
-  12 => 'invoicenumber',
+  13 => 'name',
 ),
     'searchdefs' => array (
-  'invoicenumber' => 
+  'name' => 
   array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
+    'name' => 'name',
     'width' => '10%',
-    'name' => 'invoicenumber',
   ),
   'paymentinformation' => 
   array (
@@ -47,13 +45,13 @@ $popupMeta = array (
   ),
 ),
     'listviewdefs' => array (
-  'INVOICENUMBER' => 
+  'NAME' => 
   array (
-    'type' => 'varchar',
-    'label' => 'LBL_INVOICENUMBER',
-    'width' => '10%',
+    'width' => '32%',
+    'label' => 'LBL_NAME',
     'default' => true,
-    'name' => 'invoicenumber',
+    'link' => true,
+    'name' => 'name',
   ),
   'PAYMENTINFORMATION' => 
   array (

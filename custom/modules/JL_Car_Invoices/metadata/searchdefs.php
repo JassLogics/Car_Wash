@@ -6,13 +6,11 @@ array (
   array (
     'basic_search' => 
     array (
-      'invoicenumber' => 
+      'name' => 
       array (
-        'type' => 'varchar',
-        'label' => 'LBL_INVOICENUMBER',
-        'width' => '10%',
+        'name' => 'name',
         'default' => true,
-        'name' => 'invoicenumber',
+        'width' => '10%',
       ),
       'paymentinformation' => 
       array (
@@ -42,6 +40,37 @@ array (
     ),
     'advanced_search' => 
     array (
+      'name' => 
+      array (
+        'name' => 'name',
+        'default' => true,
+        'width' => '10%',
+      ),
+      'paymentinformation' => 
+      array (
+        'type' => 'varchar',
+        'label' => 'LBL_PAYMENTINFORMATION',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'paymentinformation',
+      ),
+      'invoicedate' => 
+      array (
+        'type' => 'datetimecombo',
+        'label' => 'LBL_INVOICEDATE',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'invoicedate',
+      ),
+      'amount' => 
+      array (
+        'type' => 'currency',
+        'label' => 'LBL_AMOUNT',
+        'currency_format' => true,
+        'width' => '10%',
+        'default' => true,
+        'name' => 'amount',
+      ),
     ),
   ),
   'templateMeta' => 
