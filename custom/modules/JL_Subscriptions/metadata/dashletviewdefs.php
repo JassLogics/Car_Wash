@@ -28,6 +28,10 @@ $dashletData['JL_SubscriptionsDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
+  'package_name' => 
+  array (
+    'default' => '',
+  ),
 );
 $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
   'name' => 
@@ -44,6 +48,7 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'label' => 'LBL_PAYMENT_NO',
     'width' => '10%',
     'default' => true,
+    'name' => 'paymentno',
   ),
   'currency' => 
   array (
@@ -51,6 +56,7 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'label' => 'LBL_CURRENCY',
     'width' => '10%',
     'default' => true,
+    'name' => 'currency',
   ),
   'amount' => 
   array (
@@ -58,6 +64,7 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'label' => 'LBL_AMOUNT',
     'width' => '10%',
     'default' => true,
+    'name' => 'amount',
   ),
   'vehicalno' => 
   array (
@@ -65,6 +72,7 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'label' => 'LBL_VEHICAL_NO',
     'width' => '10%',
     'default' => true,
+    'name' => 'vehicalno',
   ),
   'startdate' => 
   array (
@@ -81,5 +89,14 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'width' => '10%',
     'default' => false,
     'name' => 'expirydate',
+  ),
+  'package_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_PACKAGE_NAME',
+    'id' => 'PACKAGE_ID',
+    'width' => '10%',
+    'default' => false,
   ),
 );

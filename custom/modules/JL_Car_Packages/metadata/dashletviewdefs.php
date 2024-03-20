@@ -67,6 +67,7 @@ $dashletData['JL_Car_PackagesDashlet']['columns'] = array (
     'label' => 'LBL_SERVICES',
     'width' => '10%',
     'default' => true,
+    'name' => 'services',
   ),
   'discount' => 
   array (
@@ -75,41 +76,5 @@ $dashletData['JL_Car_PackagesDashlet']['columns'] = array (
     'width' => '10%',
     'default' => true,
     'name' => 'discount',
-  ),
-  'date_modified' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_DATE_MODIFIED',
-    'name' => 'date_modified',
-    'default' => false,
-  ),
-  'created_by' => 
-  array (
-    'width' => '8%',
-    'label' => 'LBL_CREATED',
-    'name' => 'created_by',
-    'default' => false,
-  ),
-  'date_entered' => 
-  array (
-    'width' => '15%',
-    'label' => 'LBL_DATE_ENTERED',
-    'default' => false,
-    'name' => 'date_entered',
-  ),
-  'subscriptionname' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_SUBSCRIPTIONNAME',
-    'width' => '10%',
-    'default' => false,
-    'name' => 'subscriptionname',
-  ),
-  'assigned_user_name' => 
-  array (
-    'width' => '8%',
-    'label' => 'LBL_LIST_ASSIGNED_USER',
-    'name' => 'assigned_user_name',
-    'default' => false,
   ),
 );

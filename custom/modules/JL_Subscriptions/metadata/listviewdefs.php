@@ -51,6 +51,15 @@ array (
     'width' => '10%',
     'default' => true,
   ),
+  'PACKAGE_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_PACKAGE_NAME',
+    'id' => 'PACKAGE_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
 );
 ;
 ?>

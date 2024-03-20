@@ -11,6 +11,7 @@ $popupMeta = array (
   'vehicalno' => 'jl_subscriptions.vehicalno',
   'startdate' => 'jl_subscriptions.startdate',
   'expirydate' => 'jl_subscriptions.expirydate',
+  'package_name' => 'jl_subscriptions.package_name',
 ),
     'searchInputs' => array (
   1 => 'name',
@@ -20,6 +21,7 @@ $popupMeta = array (
   7 => 'vehicalno',
   8 => 'startdate',
   9 => 'expirydate',
+  10 => 'package_name',
 ),
     'searchdefs' => array (
   'name' => 
@@ -68,6 +70,15 @@ $popupMeta = array (
     'label' => 'LBL_EXPIRYDATE',
     'width' => '10%',
     'name' => 'expirydate',
+  ),
+  'package_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_PACKAGE_NAME',
+    'id' => 'PACKAGE_ID',
+    'width' => '10%',
+    'name' => 'package_name',
   ),
 ),
 );

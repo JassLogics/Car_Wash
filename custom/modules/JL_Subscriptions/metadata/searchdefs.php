@@ -60,6 +60,16 @@ array (
         'default' => true,
         'name' => 'expirydate',
       ),
+      'package_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_PACKAGE_NAME',
+        'id' => 'PACKAGE_ID',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'package_name',
+      ),
     ),
     'advanced_search' => 
     array (
@@ -116,6 +126,16 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'expirydate',
+      ),
+      'package_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_PACKAGE_NAME',
+        'width' => '10%',
+        'default' => true,
+        'id' => 'PACKAGE_ID',
+        'name' => 'package_name',
       ),
     ),
   ),

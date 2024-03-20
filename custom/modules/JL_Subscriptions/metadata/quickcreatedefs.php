@@ -77,6 +77,14 @@ array (
             'label' => 'LBL_EXPIRYDATE',
           ),
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'package_name',
+            'label' => 'LBL_PACKAGE_NAME',
+          ),
+        ),
       ),
     ),
   ),

@@ -82,7 +82,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'jl_subscriptions_jl_car_invoices_1_name',
+            'name' => 'package_name',
+            'label' => 'LBL_PACKAGE_NAME',
           ),
         ),
       ),

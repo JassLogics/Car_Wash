@@ -47,21 +47,6 @@ array (
     'width' => '10%',
     'default' => true,
   ),
-  'ASSIGNED_USER_NAME' => 
-  array (
-    'width' => '9%',
-    'label' => 'LBL_ASSIGNED_TO_NAME',
-    'module' => 'Employees',
-    'id' => 'ASSIGNED_USER_ID',
-    'default' => false,
-  ),
-  'SUBSCRIPTIONNAME' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_SUBSCRIPTIONNAME',
-    'width' => '10%',
-    'default' => false,
-  ),
 );
 ;
 ?>
