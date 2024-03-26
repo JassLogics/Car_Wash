@@ -1,14 +1,18 @@
 <?php
-$dashletData['JL_Car_PackagesDashlet']['searchFields'] = array (
+$dashletData['CWMS_CustomersDashlet']['searchFields'] = array (
   'name' => 
   array (
     'default' => '',
   ),
-  'duration' => 
+  'email' => 
   array (
     'default' => '',
   ),
-  'services' => 
+  'phone_no' => 
+  array (
+    'default' => '',
+  ),
+  'address' => 
   array (
     'default' => '',
   ),
@@ -16,11 +20,7 @@ $dashletData['JL_Car_PackagesDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'price' => 
-  array (
-    'default' => '',
-  ),
-  'discount' => 
+  'image' => 
   array (
     'default' => '',
   ),
@@ -29,7 +29,7 @@ $dashletData['JL_Car_PackagesDashlet']['searchFields'] = array (
     'default' => '',
   ),
 );
-$dashletData['JL_Car_PackagesDashlet']['columns'] = array (
+$dashletData['CWMS_CustomersDashlet']['columns'] = array (
   'name' => 
   array (
     'width' => '40%',
@@ -38,48 +38,47 @@ $dashletData['JL_Car_PackagesDashlet']['columns'] = array (
     'default' => true,
     'name' => 'name',
   ),
-  'duration' => 
+  'email' => 
   array (
     'type' => 'varchar',
-    'label' => 'LBL_DURATION',
+    'label' => 'LBL_EMAIL',
     'width' => '10%',
     'default' => true,
-    'name' => 'duration',
+    'name' => 'email',
+  ),
+  'phone_no' => 
+  array (
+    'type' => 'phone',
+    'label' => 'LBL_PHONE_NO',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'phone_no',
+  ),
+  'address' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_ADDRESS',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'address',
   ),
   'description' => 
   array (
     'type' => 'text',
-    'studio' => 'visible',
     'label' => 'LBL_DESCRIPTION',
     'sortable' => false,
     'width' => '10%',
     'default' => true,
     'name' => 'description',
   ),
-  'price' => 
+  'image' => 
   array (
-    'type' => 'currency',
-    'label' => 'LBL_PRICE',
-    'currency_format' => true,
+    'type' => 'image',
+    'studio' => 'visible',
     'width' => '10%',
+    'label' => 'LBL_IMAGE',
     'default' => true,
-    'name' => 'price',
-  ),
-  'services' => 
-  array (
-    'type' => 'multienum',
-    'label' => 'LBL_SERVICES',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'services',
-  ),
-  'discount' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_DISCOUNT',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'discount',
+    'name' => 'image',
   ),
   'business_name' => 
   array (

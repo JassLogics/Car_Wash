@@ -66,6 +66,15 @@ array (
             'label' => 'LBL_DISCOUNT',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'business_name',
+            'label' => 'LBL_BUSINESS_NAME',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),

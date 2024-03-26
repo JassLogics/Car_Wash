@@ -9,13 +9,6 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'PAYMENTNO' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_PAYMENT_NO',
-    'width' => '10%',
-    'default' => true,
-  ),
   'CURRENCY' => 
   array (
     'type' => 'enum',
@@ -59,6 +52,22 @@ array (
     'id' => 'PACKAGE_ID',
     'width' => '10%',
     'default' => true,
+  ),
+  'CUSTOMER_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CUSTOMER_NAME',
+    'id' => 'CUSTOMER_ID',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'PAYMENTNO' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_PAYMENT_NO',
+    'width' => '10%',
+    'default' => false,
   ),
 );
 ;

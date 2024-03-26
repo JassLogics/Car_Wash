@@ -12,13 +12,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'paymentno' => 
+      'vehicalno' => 
       array (
         'type' => 'varchar',
-        'label' => 'LBL_PAYMENT_NO',
+        'label' => 'LBL_VEHICAL_NO',
         'width' => '10%',
         'default' => true,
-        'name' => 'paymentno',
+        'name' => 'vehicalno',
       ),
       'currency' => 
       array (
@@ -35,14 +35,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'amount',
-      ),
-      'vehicalno' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_VEHICAL_NO',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'vehicalno',
       ),
       'startdate' => 
       array (
@@ -69,6 +61,16 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'package_name',
+      ),
+      'customer_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_CUSTOMER_NAME',
+        'id' => 'CUSTOMER_ID',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'customer_name',
       ),
     ),
     'advanced_search' => 
@@ -79,13 +81,13 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'paymentno' => 
+      'vehicalno' => 
       array (
         'type' => 'varchar',
-        'label' => 'LBL_PAYMENT_NO',
+        'label' => 'LBL_VEHICAL_NO',
         'width' => '10%',
         'default' => true,
-        'name' => 'paymentno',
+        'name' => 'vehicalno',
       ),
       'currency' => 
       array (
@@ -102,14 +104,6 @@ array (
         'width' => '10%',
         'default' => true,
         'name' => 'amount',
-      ),
-      'vehicalno' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_VEHICAL_NO',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'vehicalno',
       ),
       'startdate' => 
       array (
@@ -136,6 +130,16 @@ array (
         'default' => true,
         'id' => 'PACKAGE_ID',
         'name' => 'package_name',
+      ),
+      'customer_name' => 
+      array (
+        'type' => 'relate',
+        'link' => true,
+        'label' => 'LBL_CUSTOMER_NAME',
+        'width' => '10%',
+        'default' => true,
+        'id' => 'CUSTOMER_ID',
+        'name' => 'customer_name',
       ),
     ),
   ),

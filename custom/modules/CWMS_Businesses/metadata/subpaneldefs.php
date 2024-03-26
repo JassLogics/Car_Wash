@@ -1,5 +1,5 @@
 <?php
-$module_name = 'JL_Car_Packages';
+$module_name = 'CWMS_Businesses';
 $layout_defs[$module_name]['subpanel_setup']['securitygroups'] = array(
     'top_buttons' => array(array('widget_class' => 'SubPanelTopSelectButton', 'popup_module' => 'SecurityGroups', 'mode' => 'MultiSelect')),
     'order' => 900,
@@ -14,13 +14,23 @@ $layout_defs[$module_name]['subpanel_setup']['securitygroups'] = array(
 );
 
 
-    $layout_defs[$module_name]['subpanel_setup']['business_subscription'] = array(
+
+$layout_defs[$module_name]['subpanel_setup']['business_customers'] = array(
     'order' => 1,
     'sort_by' => 'date_entered',
     'sort_order' => 'desc',
-        'module' => 'JL_Subscriptions', 
+        'module' => 'CWMS_Customers', 
         'subpanel_name' => 'default',
-        'title_key' => 'LBL_JL_SUBSCRIPTIONS_SUBPANEL_TITLE',
-        'get_subpanel_data' => 'business_subscription',
+        'title_key' => 'LBL_CWMS_CUSTOMERS_SUBPANEL_TITLE',
+        'get_subpanel_data' => 'business_customers',
     );
     
+    $layout_defs[$module_name]['subpanel_setup']['business_packages'] = array(
+        'order' => 2,
+        'sort_by' => 'date_entered',
+        'sort_order' => 'desc',
+            'module' => 'JL_Car_Packages', 
+            'subpanel_name' => 'default',
+            'title_key' => 'LBL_JL_CAR_PACKAGES_SUBPANEL_TITLE',
+            'get_subpanel_data' => 'business_packages',
+        );

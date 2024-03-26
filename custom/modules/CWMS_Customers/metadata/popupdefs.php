@@ -10,6 +10,7 @@ $popupMeta = array (
   'address' => 'cwms_customer.address',
   'description' => 'cwms_customer.description',
   'image' => 'cwms_customer.image',
+  'business_name' => 'cwms_customers.business_name',
 ),
     'searchInputs' => array (
   1 => 'name',
@@ -18,6 +19,7 @@ $popupMeta = array (
   6 => 'address',
   7 => 'description',
   8 => 'image',
+  9 => 'business_name',
 ),
     'searchdefs' => array (
   'name' => 
@@ -61,6 +63,15 @@ $popupMeta = array (
     'width' => '10%',
     'label' => 'LBL_IMAGE',
     'name' => 'image',
+  ),
+  'business_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_BUSINESS_NAME',
+    'id' => 'BUSINESS_ID',
+    'width' => '10%',
+    'name' => 'business_name',
   ),
 ),
     'listviewdefs' => array (
@@ -113,6 +124,16 @@ $popupMeta = array (
     'label' => 'LBL_IMAGE',
     'default' => true,
     'name' => 'image',
+  ),
+  'BUSINESS_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_BUSINESS_NAME',
+    'id' => 'BUSINESS_ID',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'business_name',
   ),
 ),
 );

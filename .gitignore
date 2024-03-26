@@ -39,3 +39,4 @@ upload/upgrades/*
 config.php
 config_override.php
 vendor/
+.htaccess

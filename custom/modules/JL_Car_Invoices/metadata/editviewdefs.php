@@ -57,13 +57,6 @@ array (
             'label' => 'LBL_AMOUNT',
           ),
         ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'jl_subscriptions_jl_car_invoices_1_name',
-          ),
-        ),
       ),
     ),
   ),

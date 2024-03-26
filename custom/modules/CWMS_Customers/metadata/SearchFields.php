@@ -1,6 +1,6 @@
 <?php
-// created: 2024-03-21 07:05:32
-$searchFields['JL_Car_Packages'] = array (
+// created: 2024-03-21 07:09:25
+$searchFields['CWMS_Customers'] = array (
   'name' => 
   array (
     'query_type' => 'default',

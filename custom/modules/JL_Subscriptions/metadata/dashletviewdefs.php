@@ -4,7 +4,7 @@ $dashletData['JL_SubscriptionsDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
-  'paymentno' => 
+  'vehicalno' => 
   array (
     'default' => '',
   ),
@@ -13,10 +13,6 @@ $dashletData['JL_SubscriptionsDashlet']['searchFields'] = array (
     'default' => '',
   ),
   'amount' => 
-  array (
-    'default' => '',
-  ),
-  'vehicalno' => 
   array (
     'default' => '',
   ),
@@ -32,6 +28,10 @@ $dashletData['JL_SubscriptionsDashlet']['searchFields'] = array (
   array (
     'default' => '',
   ),
+  'customer_name' => 
+  array (
+    'default' => '',
+  ),
 );
 $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
   'name' => 
@@ -41,14 +41,6 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'link' => true,
     'default' => true,
     'name' => 'name',
-  ),
-  'paymentno' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_PAYMENT_NO',
-    'width' => '10%',
-    'default' => true,
-    'name' => 'paymentno',
   ),
   'currency' => 
   array (
@@ -74,6 +66,16 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'default' => true,
     'name' => 'vehicalno',
   ),
+  'package_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_PACKAGE_NAME',
+    'id' => 'PACKAGE_ID',
+    'width' => '10%',
+    'default' => true,
+    'name' => 'package_name',
+  ),
   'startdate' => 
   array (
     'type' => 'date',
@@ -90,13 +92,22 @@ $dashletData['JL_SubscriptionsDashlet']['columns'] = array (
     'default' => false,
     'name' => 'expirydate',
   ),
-  'package_name' => 
+  'paymentno' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_PAYMENT_NO',
+    'width' => '10%',
+    'default' => false,
+    'name' => 'paymentno',
+  ),
+  'customer_name' => 
   array (
     'type' => 'relate',
     'link' => true,
-    'label' => 'LBL_PACKAGE_NAME',
-    'id' => 'PACKAGE_ID',
+    'label' => 'LBL_CUSTOMER_NAME',
+    'id' => 'CUSTOMER_ID',
     'width' => '10%',
     'default' => false,
+    'name' => 'customer_name',
   ),
 );

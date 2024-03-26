@@ -39,8 +39,8 @@ array (
           0 => 'name',
           1 => 
           array (
-            'name' => 'paymentno',
-            'label' => 'LBL_PAYMENT_NO',
+            'name' => 'vehicalno',
+            'label' => 'LBL_VEHICAL_NO',
           ),
         ),
         1 => 
@@ -60,14 +60,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'vehicalno',
-            'label' => 'LBL_VEHICAL_NO',
-          ),
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
             'name' => 'startdate',
             'label' => 'LBL_STARTDATE',
           ),
@@ -77,12 +69,17 @@ array (
             'label' => 'LBL_EXPIRYDATE',
           ),
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
             'name' => 'package_name',
             'label' => 'LBL_PACKAGE_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'customer_name',
+            'label' => 'LBL_CUSTOMER_NAME',
           ),
         ),
       ),

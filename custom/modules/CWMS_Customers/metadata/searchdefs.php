@@ -1,5 +1,5 @@
 <?php
-$module_name = 'JL_Car_Packages';
+$module_name = 'CWMS_Customers';
 $searchdefs [$module_name] = 
 array (
   'layout' => 
@@ -12,48 +12,38 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'duration' => 
+      'email' => 
       array (
         'type' => 'varchar',
-        'label' => 'LBL_DURATION',
+        'label' => 'LBL_EMAIL',
         'width' => '10%',
         'default' => true,
-        'name' => 'duration',
+        'name' => 'email',
       ),
-      'services' => 
+      'phone_no' => 
       array (
-        'type' => 'multienum',
-        'label' => 'LBL_SERVICES',
+        'type' => 'phone',
+        'label' => 'LBL_PHONE_NO',
         'width' => '10%',
         'default' => true,
-        'name' => 'services',
+        'name' => 'phone_no',
+      ),
+      'address' => 
+      array (
+        'type' => 'varchar',
+        'label' => 'LBL_ADDRESS',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'address',
       ),
       'description' => 
       array (
         'type' => 'text',
-        'studio' => 'visible',
         'label' => 'LBL_DESCRIPTION',
         'sortable' => false,
         'width' => '10%',
         'default' => true,
         'name' => 'description',
-      ),
-      'price' => 
-      array (
-        'type' => 'currency',
-        'label' => 'LBL_PRICE',
-        'currency_format' => true,
-        'width' => '10%',
-        'default' => true,
-        'name' => 'price',
-      ),
-      'discount' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_DISCOUNT',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'discount',
       ),
       'business_name' => 
       array (
@@ -74,48 +64,38 @@ array (
         'default' => true,
         'width' => '10%',
       ),
-      'duration' => 
+      'email' => 
       array (
         'type' => 'varchar',
-        'label' => 'LBL_DURATION',
+        'label' => 'LBL_EMAIL',
         'width' => '10%',
         'default' => true,
-        'name' => 'duration',
+        'name' => 'email',
       ),
-      'services' => 
+      'phone_no' => 
       array (
-        'type' => 'multienum',
-        'label' => 'LBL_SERVICES',
+        'type' => 'phone',
+        'label' => 'LBL_PHONE_NO',
         'width' => '10%',
         'default' => true,
-        'name' => 'services',
+        'name' => 'phone_no',
+      ),
+      'address' => 
+      array (
+        'type' => 'varchar',
+        'label' => 'LBL_ADDRESS',
+        'width' => '10%',
+        'default' => true,
+        'name' => 'address',
       ),
       'description' => 
       array (
         'type' => 'text',
-        'studio' => 'visible',
         'label' => 'LBL_DESCRIPTION',
         'sortable' => false,
         'width' => '10%',
         'default' => true,
         'name' => 'description',
-      ),
-      'price' => 
-      array (
-        'type' => 'currency',
-        'label' => 'LBL_PRICE',
-        'currency_format' => true,
-        'width' => '10%',
-        'default' => true,
-        'name' => 'price',
-      ),
-      'discount' => 
-      array (
-        'type' => 'varchar',
-        'label' => 'LBL_DISCOUNT',
-        'width' => '10%',
-        'default' => true,
-        'name' => 'discount',
       ),
       'business_name' => 
       array (

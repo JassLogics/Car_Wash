@@ -76,14 +76,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'cwms_vendor_cwms_customer_name',
-          ),
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'cwms_businesses_cwms_customers_name',
+            'name' => 'business_name',
+            'label' => 'LBL_BUSINESS_NAME',
           ),
         ),
       ),

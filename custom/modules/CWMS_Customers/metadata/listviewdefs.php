@@ -1,5 +1,5 @@
 <?php
-$module_name = 'JL_Car_Packages';
+$module_name = 'CWMS_Customers';
 $listViewDefs [$module_name] = 
 array (
   'NAME' => 
@@ -9,42 +9,41 @@ array (
     'default' => true,
     'link' => true,
   ),
-  'DURATION' => 
+  'EMAIL' => 
   array (
     'type' => 'varchar',
-    'label' => 'LBL_DURATION',
+    'label' => 'LBL_EMAIL',
     'width' => '10%',
     'default' => true,
   ),
-  'SERVICES' => 
+  'PHONE_NO' => 
   array (
-    'type' => 'multienum',
-    'label' => 'LBL_SERVICES',
+    'type' => 'phone',
+    'label' => 'LBL_PHONE_NO',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'ADDRESS' => 
+  array (
+    'type' => 'varchar',
+    'label' => 'LBL_ADDRESS',
     'width' => '10%',
     'default' => true,
   ),
   'DESCRIPTION' => 
   array (
     'type' => 'text',
-    'studio' => 'visible',
     'label' => 'LBL_DESCRIPTION',
     'sortable' => false,
     'width' => '10%',
     'default' => true,
   ),
-  'PRICE' => 
+  'IMAGE' => 
   array (
-    'type' => 'currency',
-    'label' => 'LBL_PRICE',
-    'currency_format' => true,
+    'type' => 'image',
+    'studio' => 'visible',
     'width' => '10%',
-    'default' => true,
-  ),
-  'DISCOUNT' => 
-  array (
-    'type' => 'varchar',
-    'label' => 'LBL_DISCOUNT',
-    'width' => '10%',
+    'label' => 'LBL_IMAGE',
     'default' => true,
   ),
   'BUSINESS_NAME' => 

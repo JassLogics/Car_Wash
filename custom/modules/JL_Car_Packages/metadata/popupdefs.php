@@ -10,6 +10,7 @@ $popupMeta = array (
   'price' => 'jl_car_packages.price',
   'discount' => 'jl_car_packages.discount',
   'services' => 'jl_car_packages.services',
+  'business_name' => 'jl_car_packages.business_name',
 ),
     'searchInputs' => array (
   1 => 'name',
@@ -18,6 +19,7 @@ $popupMeta = array (
   6 => 'price',
   7 => 'discount',
   9 => 'services',
+  10 => 'business_name',
 ),
     'searchdefs' => array (
   'name' => 
@@ -62,6 +64,15 @@ $popupMeta = array (
     'label' => 'LBL_DISCOUNT',
     'width' => '10%',
     'name' => 'discount',
+  ),
+  'business_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_BUSINESS_NAME',
+    'id' => 'BUSINESS_ID',
+    'width' => '10%',
+    'name' => 'business_name',
   ),
 ),
     'listviewdefs' => array (
@@ -115,6 +126,15 @@ $popupMeta = array (
     'width' => '10%',
     'default' => true,
     'name' => 'discount',
+  ),
+  'BUSINESS_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_BUSINESS_NAME',
+    'id' => 'BUSINESS_ID',
+    'width' => '10%',
+    'default' => true,
   ),
 ),
 );
